@@ -31,10 +31,10 @@ body, html{
   flex: auto;
   display: inline-flex;
   flex-direction: row;
-  width: 100%;
+  width: 97%;
   background-color: rgba(0, 0, 0, 0.5);
   height: 30rem;
-  border: solid black 3px;
+  
 
 }
 
@@ -52,7 +52,7 @@ body, html{
   background-repeat:no-repeat;
   background-color: rgba(0, 0, 0, 0.5);
   width: 97.5%;
-  height: 58em;
+  height: 61em;
   top: 0px;
 }
 
@@ -71,8 +71,12 @@ body, html{
 .pimg2{
   background-image:url('https://images.pexels.com/photos/3133685/pexels-photo-3133685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   min-height:600px;
-  margin-right: 10px;
   
+  
+}
+.conta{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 57rem;
 }
 
 .pimg3{
@@ -82,26 +86,33 @@ body, html{
 
 
 .section{
-  
+ 
   opacity: 1;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
   text-align:center;
   padding:50px 80px;
+  background-color:rgba(30, 25, 25, 0.8);
+  color:#ddd;
+  
+  
+  
+
 }
 
 .sec1{
   flex: auto;
   display: inline-flex;
   flex-direction: column;
-  background-color: rgba(0,0,0,0.7); 
+  background-color: rgba(0,0,0,0.8); 
   background-image: url('https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   color:black;
   height: 74%;
   width: 91.5%;
   font-size: 27PX;
   border: solid 2px black;
+
   
 }
 
@@ -117,7 +128,7 @@ body, html{
   padding:20px;
   letter-spacing: 2px;
   top: 0%;
-  border: black solid 2px;
+  
   width: 97.8%;
   
 }
@@ -126,6 +137,7 @@ body, html{
   list-style: none;
   margin: 60px auto;
   color: black;
+
 
 }
 #skill li{
@@ -163,7 +175,7 @@ header{
   font-size: 20px;
   font-family: Lato,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align:left;
-  border: solid 1px black;
+  
   letter-spacing: auto;
   margin: 0px;
   font-weight: bold;
@@ -210,33 +222,154 @@ nav ul li a:hover::before{
 
 
 .gal{
-  all: revert;
-  float: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
   
-  
-  
+  /* margin: %; */
 }
-
 .gimg img{
-  width: 25%;
-  border-radius: 1%;
-  filter: grayscale(100%); 
+    float: left;
+    
+    width: 24%;
+    margin: 1px;
+    filter: grayscale(100%);
+    
+  
 }
-
 #clr{
   clear: both;
 
 }
-#gal img:hover{
+.gal img:hover{
   transform:scale(1.1);
   -webkit-transform:scale(1.001);
   filter: grayscale(0);
   border-radius: 0;
+}
+
+
+.my{
+  flex:auto;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  
+}
+.my img{
+  width: 60%;
+  margin: 100px 0px;
+  
+}
+
+
+
+
+
+
+.act{
+  position: absolute;
+	width: 96.5%;
+  top: 9%;
+	color: white;
+	font-family: century gothic;
+  text-align: center;
+  
+
+	}
+.sec h1{
+	text-align: center;
+  color:#ddd;
+  margin-bottom: 7%;
+}
+
+.cont{
+  max-width:60%;
+  height: 30%;
+	margin: auto;
+	padding: 0 10px;
+
+}
+.inp{
+	display: block;
+	width:100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border:0;
+	background:#111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+
+
+
+}
+.inp:focus{
+	box-shadow: 0 0 10px 4px #34495e;
+
+}
+.inp:hover{
+	background:#2980b9;
+	opacity: 0.4
+}
+textarea.inp{
+	resize: none;
+	height: 120px;
+
+}
+.btn{
+	float: right;
+ border:0;
+ background:#34495e;
+ color: #fff;
+ padding: 12px 50px;
+ border-radius: 2px;
+ cursor: pointer;
+ transition: 0.5s;
+
+}
+.btn:hover{
+	background:#2980b9;
+
+}
+.pi{
+	width: 1px;
+	height: 1px;
+	float: left;
+	display: inline-block;
+	position: absolute; 	
+	left:  4%;
+	padding: 0 15px;
+	width: 30%;
+	height: 30%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	bottom: -50;
+	
+
+}
+.pi .ok{
+	position: relative;
+	width:1px;
+	height: 3px;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	padding: 0 30px ;
+	
+}
+.ok img{
+ width: 40px;
+ height: 40px;
+ border-radius: 35%;
+ filter: brightness(20%);
+ transform: all ease 0.5s;
+}
+.ok img:hover{
+	filter: brightness(90%);
+	transform: scale(1.4);
+
 }
 
 
@@ -362,7 +495,7 @@ div span:hover{
   flex: auto;
   display: inline-flex;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	top: 110%;
 	color: white;
@@ -370,7 +503,7 @@ div span:hover{
 	padding: 1px 10px;
 	width: 90%;
 	height: 60%;
-	border-radius: 7%
+
 }
 
 .main h1{
@@ -396,7 +529,7 @@ div span:hover{
 	transition: transform 2s;
 	width: 400px;
 	height: 500px;
-	border-radius: 5%;
+	border-radius: 3%;
 
 }
 
@@ -441,3 +574,8 @@ div span:hover{
 	font-size: 20px;
 	color: #ff0;
 }
+
+
+
+
+

@@ -365,3 +365,41 @@ transform: scale(1.4);}
 	   <li><h3>JAVA</h3><span class="bar"><span class="java"></span></span></li>
               <li><h3>DATABASE</h3><span class="bar"><span class="dbms"></span></span></li>
               <li><h3>PYTHON</h3><span class="bar"><span class="python"></span></span></li>
+
+
+
+
+			  .image{
+	position: absolute; 	
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	}
+	
+	.image .pic{
+		position: relative;
+		width: 25%;
+		height: 25%;		
+		box-sizing: border-box;
+		display: inline-block;
+    /* padding: 15px 15px; */
+    
+	}
+	.pic img{
+		width: 100%;
+		-webkit-transition: all ease 0.5s;
+		transform: scale(1);
+		-webkit-transform:scale(1);
+		filter: grayscale(100%);
+
+
+	}
+	.pic img:hover{
+		transform:scale(1.1);
+		-webkit-transform:scale(1.2);
+		filter: grayscale(0);
+		
+	}
