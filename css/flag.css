@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgba(0,0 , 0, 0.1);
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20rem 20rem 20rem;
+    grid-template-areas: 
+    "germany nether Thiland turkey"
+    "sweden austria india spain"
+    "pol benin";
+}
+.germany, .nether ,.austria, .india ,.ghana{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 6rem 6rem 6rem;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "f" 
+    "s" 
+    "t"
+    "namege";
+    padding: 2px;
+}
+
+.benin .f{
+    background-color:#008751;
+}
+.benin .s{
+    background-color: #FCD116;
+}
+.benin .t{
+    background-color: #008751;
+    
+}
+.benin .fo{
+    background-color: #E8112D;
+}
+
+
+.benin{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 9rem 9rem ;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+    "f s" 
+    "t fo" 
+    "namege";
+    padding: 2px;
+}
+
+
+.rwanda .f{
+    background-color: #00A1DE;
+}
+.rwanda .s{
+    background-color: #E5BE01;
+}
+.rwanda .t{
+    background-color: #20603D;
+}   
+.rwanda .f img{
+    margin-top: 2%;
+    margin-left: 55%;
+    width: 25%;
+    
+
+}
+
+.rwanda{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 9rem 4.5rem 4.5rem;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "f" 
+    "s" 
+    "t"
+    "namege";
+    padding: 2px;
+}
+
+
+
+.ghana .f{
+    background-color: #E8112D;
+}
+.ghana .s{
+    background-color: #FCD116;
+}
+.ghana .t{
+    background-color: #008751;
+    
+}
+.ghana .s img{
+    width: 24%;
+    text-align: center;
+
+}
+
+
+.germany .f{
+    background-color: black;
+}
+.germany .s{
+    background-color: red;
+}
+.germany .t{
+    background-color: yellow;
+}
+
+
+.pol .s{
+    background-color:#dc143c;
+}
+.pol .f{
+    background-color: white;
+}
+.pol .f img{
+    margin-top: 5px;
+    width: 25%;
+    text-align: center;
+}
+
+
+
+.austria .f{
+    background-color: red;
+}
+.austria .s{
+    background-color: white;
+}
+.austria .t{
+    background-color: red;
+}
+
+
+.spain .f{
+    background-color: #AA151B;
+}
+.spain .s{
+    background-color: #F1BF00;
+}
+.spain .t{
+    background-color: #AA151B;
+}
+.spain .s img {
+    width: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+
+
+.india .f{
+    background-color: #FF9933;
+}
+.india .s{
+    background-color: #FFFFFF;
+}
+.india .t{
+    background-color: #138808;
+}
+ .india .s img{
+     text-align: center;
+     width : 20%;
+ }
+
+
+.nether .f,.Thailand .f{
+    background-color: red;
+}
+.nether .s,.Thailand .s{
+    background-color: white;
+}
+.nether .t,.Thailand .t{
+    background-color: blue;
+}
+
+
+
+.Thailand .f{
+    background-color: red;
+}
+.Thailand .s{
+    background-color: white;
+}
+.Thailand .t{
+    background-color: blue;
+    
+}
+.Thailand .fo{
+    background-color: white;
+}
+.Thailand .fi,.turkey .f {
+    background-color: 	#E30A17;
+    
+}
+
+.turkey .f img {
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 60%;
+}
+
+
+
+
+
+
+.spain{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 4.5rem 9rem 4.5rem;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "f" 
+    "s" 
+    "t"
+    "namege";
+    padding: 2px;
+}
+
+.pol{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 9rem 9rem;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "f" 
+    "s" 
+    "namege";
+    padding: 2px;
+}
+
+
+
+.Thailand{
+    display: grid;
+    grid-template-rows: 3rem 3rem 6rem 3rem 3rem;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    
+    "f" 
+    "s" 
+    "t"
+    "fo"
+    "fi"
+    "namege";
+    padding: 2px;
+    
+}
+
+ .turkey{
+    display: grid;
+    grid-template-rows: 18rem;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "f" 
+    "namege";
+    padding: 2px;
+
+ }
+
+
+.sweden .f{
+    background-color:#004B87;
+   
+}
+.sweden .s{
+    background-color: #FFCD00;
+    
+}
+.sweden .t{
+    background-color: #004B87;
+
+    
+}
+.sweden .fo{
+    background-color: #FFCD00;
+}
+.sweden .fi {
+    background-color: 	#FFCD00;  
+}
+
+.sweden .si{
+    background-color:#FFCD00;
+}
+.sweden .se{
+    background-color: #004B87;
+}
+.sweden .et{
+    background-color: #FFCD00;
+    
+}
+.sweden .ni{
+    background-color: #004B87;
+
+
+
+}
+.sweden {
+    display: grid;
+    grid-template-columns: 30% 10% 60%;
+    grid-template-rows: 7.5rem 3rem 7.5rem ;
+    grid-template-areas: 
+    "f fo se"
+    "s fi et"
+    "t si ni"
+    "namege";
+    padding: 2px;
+    
+}
+
+ 
